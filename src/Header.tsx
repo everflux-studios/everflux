@@ -4,7 +4,7 @@ import { refProps } from './types';
 
 export default function Header({ aRef, pRef, cRef, handleClick }: refProps) {
   return (
-    <header className='bg-violet-300 flex justify-between p-2px'>
+    <header className='bg-emerald-100 flex justify-between p-2px fixed w-full'>
       <img
         src={logo}
         alt='logo'
